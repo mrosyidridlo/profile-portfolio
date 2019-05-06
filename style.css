@@ -7,7 +7,7 @@ body {
 	margin-top: 30px; 
 }
 
-.jumbotron {
+/*.jumbotron {
 	height: 800px;
 	background-image: url('img/computer.jpg');
 	background-attachment: fixed;
@@ -28,7 +28,7 @@ body {
 	text-shadow: 1px 1px 10px rgba(0,0,0,.8);
 	color: white;
 }
-
+*/
 
 #fb, #ig, #in, #t {
 	width: 50px;
@@ -37,8 +37,6 @@ body {
 	/*margin-top: 250px;*/
 	/*text-shadow: 1px 1px 10px rgba(0,0,0,.5);*/
 }
-
-
 
 hr {
 	width: 250px;
@@ -68,6 +66,10 @@ section {
 	background-color: #eee;
 }
 
+/*.thumbnail {
+	width:300px;
+}
+*/
 .portfolio, .thumbnail {
 	opacity: 0;
 	transform: translate(0, -40px);

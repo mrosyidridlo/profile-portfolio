@@ -20,7 +20,6 @@
     <![endif]-->
   </head>
   <body>
-
   	<!-- navbar -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
   		<div class="container-fluid">
@@ -48,28 +47,43 @@
 
   	<!-- akhir navbar -->
 
-    <!-- Jumbotron -->
-	<div class="jumbotron text-center">
-		<img src="img\ochid.jpg" class="img-circle">
-		<h1 class="name">M Rosyid Ridlo</h1>
-		<!-- <p>IT Support | Web Developer</p> -->
-		<a href="http://facebook.com/muhammad.ridlo.3">
-			<img src="img/logo/facebook.png" id="fb">
-		</a>
-		<a href="http://facebook.com/muhammad.ridlo.3">
-			<img src="img/logo/instagram.png" id="ig">
-		</a>
-		<a href="http://facebook.com/muhammad.ridlo.3">
-			<img src="img/logo/linkedin.png" id="in">
-		</a>
-		<a href="http://facebook.com/muhammad.ridlo.3">
-			<img src="img/logo/twitter.png" id="t">
-		</a>
-		
-	</div>
-    <!-- akhir jumbotron -->
+	<!-- Carousel -->
+		<div class="container">
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		    </ol>
 
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner" ">
+		      <div class="item active">
+		        <img src="img/javascript.jpg" alt="hacktiv-class" style="width:100%;">
+		      </div>
 
+		      <div class="item">
+		        <img src="img/header_bg.png" alt="Chicago" style="width:100%;">
+		      </div>
+		    
+		      <div class="item">
+		        <img src="img/home_sec.jpg" alt="New york" style="width:100%;">
+		      </div>
+		    </div>
+
+		    <!-- Left and right controls -->
+		    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		      <span class="glyphicon glyphicon-chevron-left"></span>
+		      <span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		      <span class="glyphicon glyphicon-chevron-right"></span>
+		      <span class="sr-only">Next</span>
+		    </a>
+		  </div>
+		</div>
+	<!-- Akhir Carousel -->
 
     <!-- about -->
 	<section class="about" id="about">
@@ -108,33 +122,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
-					<a href="" class="thumbnail">
-						<img src="img/portfolio/1.jpg" alt="1">
+					<a href="biodata/index.html" class="thumbnail">
+						<img src="img/biodata.png" alt="1">
 					</a>
 				</div>
 				<div class="col-sm-4">
-					<a href="" class="thumbnail">
-						<img src="img/portfolio/2.jpg" alt="2">
+					<a href="calculator/index.html" class="thumbnail">
+						<img src="img/calculator.png" alt="2">
 					</a>
 				</div>
 				<div class="col-sm-4">
-					<a href="" class="thumbnail">
+					<a href="Table/index.html" class="thumbnail">
 						<img src="img/portfolio/3.jpg" alt="3">
-					</a>
-				</div>
-				<div class="col-sm-4">
-					<a href="" class="thumbnail">
-						<img src="img/portfolio/4.jpg" alt="4">
-					</a>
-				</div>
-				<div class="col-sm-4">
-					<a href="" class="thumbnail">
-						<img src="img/portfolio/5.jpg" alt="5">
-					</a>
-				</div>
-				<div class="col-sm-4">
-					<a href="" class="thumbnail">
-						<img src="img/portfolio/6.jpg" alt="6">
 					</a>
 				</div>
 			</div>
@@ -155,7 +154,7 @@
 
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2">
-					<form>
+					<form action="https://formspree.io/codeingrowbrain@gmail.com" method="POST">
 						<div class="form-group">
 							<label for="nama">Nama</label>
 							<input type="nama" class="form-control" id="Nama" placeholder="Nama">
@@ -182,7 +181,6 @@
 							<textarea class="form-control" rows="10" placeholder="masukan pesan"></textarea>
 						</div>
 						<button type="submit" class="btn btn-primary">Kirim Pesan</button>
-
 					</form>
 				</div>
 			</div>
@@ -201,7 +199,8 @@
 					</div>
 				</div>
 		</footer>
-	<!-- akhir footer -->		
+	<!-- akhir footer -->	
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
